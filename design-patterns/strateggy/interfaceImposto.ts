@@ -1,4 +1,4 @@
 export default interface Imposto {
-    calculaOrcamento(orcamento);
+    calculaOrcamento(orcamento : number) : void;
 }
 
