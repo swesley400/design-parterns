@@ -1,8 +1,9 @@
 import Icms from "./icms";
+import Imposto from "./interfaceImposto";
 import Iss from "./iss"
 
 class calculadoraDeImpostos{
-    calcular(orcamento, imposto){
+    public calcular(orcamento : number, imposto: Imposto){
         return imposto.calculaOrcamento(orcamento);
     }
 }
